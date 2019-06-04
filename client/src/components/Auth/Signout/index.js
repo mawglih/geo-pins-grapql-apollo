@@ -9,6 +9,7 @@ const Signout = ({ classes }) => {
   const { dispatch } = useContext(Context);
   const onSignout = () => {
     dispatch({ type: "SIGNOUT_USER" })
+    dispatch({ type: 'IS_LOGGED_IN', payload: false })
   }
   return (
     <GoogleLogout

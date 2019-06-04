@@ -55,7 +55,8 @@ const styles = theme => ({
   grow: {
     flexGrow: 1,
     display: 'flex',
-    alignItems: 'center'
+    alignItems: 'center',
+    // justifyContent: 'space-between',
   },
   icon: {
     marginRight: theme.spacing.unit,
